@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SK Ospina</title>
+	<link rel="stylesheet" href="esthefestyle.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<script src="escripts.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+
+
+<div class="menubar">		
+<ul>
+  <li><a onclick="eHorseMaster('home')" >HOME</a></li>
+  <li><a onclick="eHorseMaster('aboutme')">ABOUT ME</a></li>
+  <li><a onclick="eHorseMaster('portfolio')">PORTFOLIO</a></li>
+  <li><a onclick="eHorseMaster('contact')">CONTACT</a></li>
+</ul>
+</div>
+<section id="home" class="visible">
+<hr>
+<div class="pr">PORTFOLIO &amp; RESUME</div>
+<div class="cl"> STHEFANY K. OSPINA </div>
+<div class="am">
+	<div class="am2" >Download CV</div>
+</div>
+</section>
+<section id="aboutme"  class="invisible">
+	<div class="titleam">ABOUT ME</div>
+	<div class="tagline">PROBLEM SOLVER <i> | </i> ARTIST <i> | </i> PROJECT MANAGER <i> | </i> BUSINESSWOMAN</div>
+	<div class="summary"><span class="ilsp">I Like Solving Problems.<br></span> I've been managing small businesses since I opened BellyPassion Colombia when I was 16, and I've had a passion for creative problem solving and business management ever since.</div>
+	<div class="ba" onclick="popup()"><span class="ilsp">Business Adminstration</span><br>Project management & adminstration experience with construction and retail companies.</div>
+	<div class="marketing"><span class="ilsp">Marketing</span><br>Founded and ran Bellypassion Colombia, attaining over 200 students and garnering numerous television and radio appearances in Bogota</div>
+	<div class="wordpress"><span class="ilsp">Wordpress</span><br>Wordpress guru and web design hobbiest</div>
+	<div class="coordinator"><span class="ilsp">Event Coordination</span><br>Deep experience managing & coordinating large-scale events </div>
+	<div class="circle1"></div>
+	<img src="images/bs.svg" class="bs">
+	<div class="circle2"></div>
+	<img src="images/marketing.svg" class="marketingicon">
+	<div class="circle3"></div>
+	<img src="images/wordpress.svg" class="wordpressicon">
+	<div class="circle4"></div>
+	<img src="images/events.svg" class="eventsicon">
+
+</section>
+<section id="resume" class="invisible">
+</section>
+
+<section id="portfolio" class="invisible">
+	<div class="mywork">MY WORK</div>
+	<div class="bandd">BUSINESS AND DESIGN PROJECTS</div>
+	<div class="portfoliobar">
+	<ul>
+		<li><a onclick="filterSkills('All')">ALL</a></li>
+		<li><a onclick="filterSkills('Bus')" >BUSINESS PROJECTS</a></li>
+		<li><a onclick="filterSkills('Web')" >WEB PROJECTS</a></li>
+		<li><a onclick="filterSkills('Exp')" >EXPERIENCE</a></li>
+	</ul>
+	</div>
+<div id="portfoliobox">	
+		<div class="skillbox" data-type="Web"><img src="images/kkh.jpg" class="box1"></div>
+		<div class="skillbox" data-type="Bus" id="livsb"><img src="images/liv.jpg" class="box1"></div>
+		<div class="skillbox" data-type="Web"><img src="images/aws.jpg" class="box1"></div>
+		<div class="skillbox" data-type="Bus"><img src="images/pipedrive.jpg" class="box1"></div>
+		<div class="skillbox" data-type="Web"><img src="images/wordpress.jpg" class="box1"></div>
+		<div class="skillbox" data-type="Bus"><img src="images/bpc.jpg" class="box1"></div>
+		<div class="skillbox" data-type="Bus"><img src="images/bpusa.jpg" class="box1"></div>
+		<div class="skillbox" data-type="Exp"><img src="images/sthefany.jpg" class="box1"></div>
+		
+</div>
+</section>
+
+<section id="contact" class="invisible">
+	<div class="fotofondo"></div>
+	<div class="fotofondo2"></div>
+	<div class="texto">
+	<div class="contactme">CONTACT ME</div>
+    <div class="linea"></div>
+	<img src="images/call.svg" class="callicon">
+	<div class="call"><span class="ilsp">786-343-0956</div>
+	<img src="images/email.svg" class="emailicon">
+	<div class="email"><span class="ilsp">sk@skospina.com</div>
+	<img src="images/location.svg" class="locationicon">
+	<div class="location"><span class="ilsp">United States</div>
+	</div>
+		
+</section>
+</body>
+</html>

@@ -1,0 +1,532 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	background:url('./images/home-bg.jpg') no-repeat;
+	background-size: cover;
+    background-position: center;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.tagline i{
+	color: #FFD321;
+	font-style: normal;
+}
+
+#home{
+	position: absolute;
+	transition: margin-top border-radius 1s;
+	border-radius:100%;
+}
+
+#aboutme{
+	position: absolute;
+	background-color: white;
+	width:100vw;
+	height:90vh;
+	transition: margin-top 1s;
+}
+
+#resume{
+	position: absolute;
+	height: 90vh;
+	width: 100vw;
+	background-color: white;
+	transition: margin-top 1s;
+}
+
+#portfolio{
+	position: absolute;
+	height: 90vh;
+	width: 100vw;
+	background-color: white;
+	transition: margin-top 1s;
+}
+
+
+#contact{
+	position: absolute;
+	height: 90vh;
+	width: 100vw;
+	transition: margin-top 1s;
+	background:url('./images/footer-bg.jpg') no-repeat;
+	background-size:cover;
+    background-position: center;
+}
+
+
+.invisible{
+	margin-top: 100vh;
+}
+
+.visible{
+	margin-top: 10vh;
+}
+
+
+
+.cl {
+	position: ABSOLUTE;
+	height: 10vh;
+	width: 100vw;
+	text-align: center;
+	margin-top: 38vh;
+	padding: 1.5vw;
+	font-size: 60px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+.pr  {
+	position: ABSOLUTE;
+	height: 10vh;
+	width: 100vw;
+	text-align: center;
+	margin-top: 30vh;
+	padding-top: 5vh;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+	font-family: 'Montserrat';
+	
+}
+
+hr {
+	position: absolute;
+	width:10vw;
+	margin-left:45vw;
+	margin-top: 30vh;
+    border: 2px solid #404040;
+	text-align: center;
+	align-items: center;
+}
+
+.am {
+	position: ABSOLUTE;
+	height: 10vh;
+	width: 100vw;
+	text-align: center;
+	margin-top: 57vh;
+	font-size: 15px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+.am2 { 
+border: 3px solid black;
+width: 13vw;
+height: 10vh;
+padding-top: 3vh;
+text-align: center;
+margin-left: 43.5vw;
+box-sizing: border-box;
+transition: background-color 1s;
+cursor: pointer;
+}
+
+.am2:hover{ 
+	background-color: #1c1f24;
+	font-weight: bold;
+	color: white;
+
+}
+
+
+
+
+.menubar {
+	position:fixed;
+	width:100vw;
+	height:10vh;
+}
+
+ul {
+	float:right;
+    padding-right:5vw;
+}
+
+li {
+    display: inline;
+	color: #505050;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20;
+    padding: 0;
+	float: left;
+}
+
+li:hover{ 
+	background-color: #FFD321;
+	font-weight: bold;
+	color: white;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	cursor:pointer;
+}
+
+.titleam {
+	position: ABSOLUTE;
+	height: 10vh;
+	width: 100vw;
+	text-align: center;
+	margin-top: 3vh;
+	padding: 1.5vw;
+	font-size: 60px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+.tagline {
+   position:absolute;
+	width: 100vw;
+	height: 2vh;
+	margin-top:19vh;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size:15px;
+}	
+
+.summary {
+	position:absolute;
+	margin-top:40vh;
+	width:60vh;
+	height:20vh;
+	font-family: 'Montserrat';
+	font-size: 19px;
+	margin-left:8vw;
+	text-align: left;
+}
+
+.ilsp {
+	font-weight:bold;
+	font-size: 20px;
+	
+}
+
+#bsicon{
+	position: absolute;
+	height: 2vh;
+	width:.5vw;
+	margin-left: 55vw;
+	margin-top:22.5vh;
+
+	
+	
+}
+
+.ba {
+	position:absolute;
+	width:40vw;
+	height:10vh;
+	margin-top:30vh;
+	margin-left:56vw;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	box-sizing:border-box;
+	text-align: left;
+}
+	
+.marketing {
+	position:absolute;
+	width:40vw;
+	height:10vh;
+	margin-top:45vh;
+	margin-left:56vw;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	box-sizing:border-box;
+	text-align: left;
+}
+
+.wordpress{
+	position:absolute;
+	width:40vw;
+	height:10vh;
+	margin-top:62vh;
+	margin-left:56vw;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	box-sizing:border-box;
+	text-align: left;
+	
+}
+.coordinator{
+	position:absolute;
+	width:40vw;
+	height:10vh;
+	margin-top:74vh;
+	margin-left:56vw;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	box-sizing:border-box;
+	text-align: left;
+	
+}
+	
+.bs	{
+	position:absolute;
+	height:7vh;
+	width:3vw;
+	margin-top:30vh;
+	margin-left:50.1vw;
+}
+.marketingicon	{
+	position:absolute;
+	height:5vh;
+	width:2.5vw;
+	margin-top:46vh;
+	margin-left:50.8vw;
+}
+
+.wordpressicon	{
+	position:absolute;
+	height:5vh;
+	width:2.5vw;
+	margin-top:62.5vh;
+	margin-left:50.5vw;
+}
+
+.eventsicon	{
+	position:absolute;
+	height:5vh;
+	width:2.5vw;
+	margin-top:74.2vh;
+	margin-left:50.5vw;
+}
+
+.circle1{
+	position:absolute;
+	height:3.5vw;
+	width:3.5vw;
+	margin-top:30vh;
+	margin-left:50vw;
+	background-color:#FFD321;
+	border-radius: 100%;
+}
+
+.circle2{
+	position:absolute;
+	height:3.5vw;
+	width:3.5vw;
+	margin-top:45vh;
+	margin-left:50vw;
+	background-color:#FFD321;
+	border-radius: 100%;
+}
+
+.circle3{
+	position:absolute;
+	height:3.5vw;
+	width:3.5vw;
+	margin-top:62vh;
+	margin-left:50vw;
+	background-color:#FFD321;
+	border-radius: 100%;
+}
+.circle4{
+	position:absolute;
+	height:3.5vw;
+	width:3.5vw;
+	margin-top:74vh;
+	margin-left:50vw;
+	background-color:#FFD321;
+	border-radius: 100%;
+}
+
+
+.mywork{
+	position: ABSOLUTE;
+	height: 10vh;
+	width: 100vw;
+	text-align: center;
+	margin-top: 3vh;
+	padding: 1.5vw;
+	font-size: 60px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+.bandd{
+	width: 100vw;
+	height: 3vh;
+	margin-top:17vh;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size:15px;	
+}
+
+.portfoliobar {
+	position:absolute;
+	height:3vh;
+	margin-left: 23.5vw;
+	margin-top:1.2vh;
+}
+
+ul {
+	float:center;
+    text-align: center;
+
+}
+#portfoliobox{
+	position: absolute;
+	overflow: hidden;
+	width: 85vw;
+	margin-top: 11vh;
+	background-color: white;
+	margin-left:10vw;
+	padding-left:1vw;
+	
+}
+
+.skillbox{
+	display: inline-block;
+	width: 20vw;
+	background-color: white;
+	margin:0;
+	margin-top:.15vh;	
+	overflow: hidden;
+	transition: all .5s ease;
+}
+
+.skillbox:hover{
+	box-shadow: 0px 0px 2px 2px rgb(0,0,0,.75);	
+	border: 3px solid #00cccc;
+}
+
+.box1 {
+	height: 25vh;
+	width:inherit;
+	align-items:center;
+	
+}
+
+
+.contactme {	
+	height: 10vh;
+	width: 100vw;
+	text-align: center;
+	margin-top: 2vh;
+	padding: 1.5vw;
+	font-size: 60px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+	background-size: cover;
+    background-position: center;	
+}	
+
+.call {
+	position:absolute;
+	width:18.7vw;
+	margin-top:23vh;
+	margin-left:46vw;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	box-sizing:border-box;
+	text-align: left;
+}
+.email {
+	position:absolute;
+	width:18.7vw;
+	margin-top:32.5vh;
+	margin-left:46vw;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	box-sizing:border-box;
+	text-align: left;
+}
+.location {
+	position:absolute;
+	width:18.7vw;
+	margin-top:42.5vh;
+	margin-left:46vw;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	box-sizing:border-box;
+	text-align: left;
+}
+.callicon {
+	position:absolute;
+	height:6vh;
+	width:3vw;
+	margin-top:22.5vh;
+	margin-left:41vw;
+}
+
+.emailicon{
+	position:absolute;
+	height:6vh;
+	width:3vw;
+	margin-top:32.5vh;
+	margin-left:41vw;
+}
+
+.locationicon{
+	position:absolute;
+	height:6vh;
+	width:3vw;
+	margin-top:42.5vh;
+	margin-left:41vw;
+}
+
+.linea {
+	position: absolute;
+	width:15vw;
+	height:5vh;
+	border-bottom: 4px solid black;
+	margin-top: 8vh;
+	margin-left:42.5vw;
+	
+}
+.fotofondo {
+	position:absolute;
+	background-color: white;
+	height:90vh;
+	width: 100vw;
+	opacity:0.5;
+	z-index:1;
+}
+
+.fotofondo2 {
+	position:absolute;
+	background-color: white;
+	height:90vh;
+	width: 100vw;
+	opacity:0.5;
+	z-index:2;
+
+}
+.texto {
+	position:absolute;
+	height:90vh;
+	width: 100vw;
+	z-index:2;
+}
+
+
+
